@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    color: #6C737E;
+    text-align: center;
+    font-family:Montserrat;
+    background-color: #e8ecf1;
+    
+}
+
+h1 {
+    margin: 10px auto 0 auto;
+    color: #7393A7;
+    font-family: "Vujahday Script";
+    font-size: 5rem;
+}
+
+h2 {
+    size: 2.5rem;
+    color: #7393A7;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+div {
+    /* background-color: #e8ecf1; */
+    /* height: 30rem; */
+    margin: 0;
+}
+
+.top-container{
+    /* padding-top: 100px; */
+    /* height: 25rem; */
+    position: relative;
+    padding-top: 10%;
+    overflow: hidden;
+    padding-bottom: 30%;
+}
+
+.top-bg{
+    width: 100%;
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title{
+    position: relative;
+}
+
+.top-icon{
+    height: 1.8rem;
+    margin: 2rem 0.5rem 0 0.5rem;
+    fill: #7393A7;
+}
+
+.top-icon:hover{
+    fill: #6C737E;
+}
+
+.circle-img{
+    height: 10rem;
+}
+
+hr {
+    width: 5%;
+    height: 0;
+    margin: 100px auto 100px auto;
+    color: #7393A7;
+    border-top: 10px dotted;
+    opacity: 50%;
+}
+
+.intro{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 1.5;
+}
+
+.profile{
+    padding-top: 3rem;
+}
+
+.bottom-container{
+    background-color: #7393A7;
+    color: #e8ecf1;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+a{
+    color: #e8ecf1;
+    margin: 1rem;
+}
+a:hover{
+    color: #B1D0E0;
+}
+footer {
+    margin-top: 0.8rem;
+    font-size: 0.75rem;
+}
+
+.right-img{
+    width: 25%;
+    float: right;
+    margin-left: 1rem;
+    /* margin-top: 0px; */
+
+}
+
+.left-img{
+    float: left;
+    width: 25%;
+    margin-right: 1rem;
+}
+
+.project-row{
+    width: 50%;
+    margin: 100px auto 150px auto;
+    /* display: inline; */
+    text-align: left;
+}
+
+.project-link{
+    color: #7393A7;
+    margin: 0;
+}
+
+.attribute{
+    color: #B1D0E0;
+    font-size: smaller;
+    text-align: left;
+    /* margin-left: 25%; */
+    text-indent: 25%;
+}
+
+.notion{
+    color: grey;
+    margin: 0;
+}
