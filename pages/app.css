@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body:before {
+  content: "";
+  background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg);
+  opacity: 0.6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+a {
+  color: black;
+  transition: all 0.2s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+a:active {
+  opacity: 1;
+}
